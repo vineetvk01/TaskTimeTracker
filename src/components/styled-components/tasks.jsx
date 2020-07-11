@@ -30,7 +30,7 @@ export const Tag = styled.p`
   padding: 5px 10px;
   margin-right: 5px;
   color: #fff;
-
+  cursor: pointer;
 `;
 
 export const TimeBox = styled.div`
