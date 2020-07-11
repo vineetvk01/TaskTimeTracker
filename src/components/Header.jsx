@@ -56,8 +56,8 @@ const MenuItem = styled.p`
 const Menu = () => {
   return (
     <MenuBox>
-      <MenuItem>Hi, Vineet</MenuItem>
-      <MenuItem link>Log out</MenuItem>
+      <MenuItem>Hi, User</MenuItem>
+      <MenuItem link>Log out ?</MenuItem>
     </MenuBox>)
 };
 
