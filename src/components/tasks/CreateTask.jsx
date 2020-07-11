@@ -66,7 +66,7 @@ export const _CreateTask = ({ tags, updateTags, addNewTask }) => {
       <Tag key={tagId} selected={selectedTags.includes(tagId)} onClick={()=>handleSelectTags(tagId)} >{tags[tagId]}</Tag>
       )
     )}
-    <br />
+    <div style={{clear: 'both'}} />
     <TaskInput value={newTag} onChange={(e)=>setNewTag(e.target.value)} style={{ width: '76%'}} placeholder='Add new tag ? ' />
     <Add onClick={(e)=>handleNewTag()}><FaPlus /></Add>
     <CreateButton onClick={e => handleNewTask()}>Create</CreateButton>
